@@ -1,0 +1,24 @@
+.sidbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 86px 0px;
+    color: white;
+    background-color: var(--bg-surfaces);
+  }
+
+  .logo{
+    margin-block-end: 62px;
+  }
+
+  .avatar{
+    margin-block-end: 32px;
+  }
+
+  .userName{
+    margin-block-end: 28px;
+  }
+
+  .userLvl {
+    margin-block-end: 40px;
+  }
