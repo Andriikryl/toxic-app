@@ -12,7 +12,7 @@
 
   --font-color-default: var(var(--light100))
   --font-color-secondary: var(var(var(--grey600)))
-
+  --gradient-default: linear-gradient(#6468c5, #e06bbf);
 }
 
 .app {

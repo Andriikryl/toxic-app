@@ -5,5 +5,17 @@
 }
 
 .progress svg{
-    stroke: greenyellow;
+    transform: rotate(270deg) scaleY(-1);
+    -webkit-transform: rotate(270deg) scaleY(-1);
+    -moz-transform: rotate(270deg) scaleY(-1);
+    -ms-transform: rotate(270deg) scaleY(-1);
+    -o-transform: rotate(270deg) scaleY(-1);
+}
+
+.gradientStart {
+    stop-color: #6468c5;
+}
+
+.gradientStop {
+    stop-color: #e06bbf;
 }
